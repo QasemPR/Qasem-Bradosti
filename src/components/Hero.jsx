@@ -32,12 +32,6 @@ const Hero = () => {
             <li>Web Application</li>
             <li>Managment Systems</li>
           </ul>
-          <h1>And I`m Speaking</h1>
-          <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 50 }}>
-            <li>Kurdish</li>
-            <li>Arabic</li>
-            <li>English</li>
-          </ul>
         </div>
       </div>
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
