@@ -19,7 +19,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <div>
+        <div className="sm:mt-10 max-[500px]:mt-12 max-[300px]:mt-[300px]">
           <About />
           <Experience />
         </div>
