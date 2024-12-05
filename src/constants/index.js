@@ -157,10 +157,28 @@ const languages = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Techno Speed Software Team",
+    title: "Data Analyst, Accounting, IT Manager, and Systems Management",
+    company_name: "Zamin Phone Company",
     iconBg: "#0070ff",
-    date: "March 2024 - Now",
+    date: "Dec 2024 - Present",
+    points: [
+      "In my current role at Zamin, I oversee a wide range of responsibilities, including data analysis, accounting, IT management, and systems management. My key responsibilities include:",
+      "Data Analysis: Analyzing large datasets to uncover trends, insights, and actionable data to support strategic decision-making across the organization.",
+      "Financial Reporting and Accounting: Managing financial reporting, budgeting, forecasting, and overseeing accounts payable/receivable along with regular reconciliations.",
+      "IT Management: Leading the management of IT infrastructure, ensuring the organization’s systems and networks are secure, reliable, and aligned with business objectives.",
+      "Systems Management: Administering and optimizing company-wide IT systems, including database management, software tools, and internal networks, ensuring smooth, uninterrupted operations.",
+      "IT Support: Providing technical support to employees, troubleshooting and resolving hardware/software issues, and ensuring efficient communication and collaboration tools.",
+      "System Maintenance and Upgrades: Overseeing regular maintenance, updates, and upgrades to IT systems to ensure efficiency, security, and up-to-date technology standards.",
+      "Process Automation: Implementing automation solutions for data analysis, accounting workflows, and IT operations, reducing manual efforts and increasing overall productivity.",
+      "Team Leadership: Leading and mentoring the IT support team, setting priorities, and providing training to ensure the effective use of technology throughout the company.",
+      "This role enables me to leverage my skills in IT management, systems optimization, data analysis, and accounting to drive operational efficiency, security, and growth at Zamin.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Tecno Speed Software Team",
+    iconBg: "#0070ff",
+    date: "March 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

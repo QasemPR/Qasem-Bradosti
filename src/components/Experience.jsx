@@ -13,29 +13,35 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: '#1a5aa5',
+        background: "#d35400",
         color: "#fff",
-        borderRadius:10
+        borderRadius: 10,
       }}
       contentArrowStyle={{ borderRight: "7px solid " }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: "#d35400" }}
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <div
+          style={{
+            margin: 10,
+          }}
+          className="mt-4"
+        />
         <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
+          className="text-secondary text-[16px] font-semibold"
+          style={{ margin: 0, color: "white", fontWeight: 600 }}
         >
-          {experience.company_name}
+          [ {experience.company_name} ]
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -49,7 +55,7 @@ const Experience = () => {
   return (
     <>
       <h1 className="font-bold text-center text-2xl">Experience</h1>
-      <div className='mt-20 flex flex-col'>
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
