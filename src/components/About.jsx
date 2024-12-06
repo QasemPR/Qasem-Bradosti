@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in
-        JavaScript, and expertise in frameworks like React, Node.js,and
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m a skilled software developer with a diverse skill set and extensive experience in JavaScript, complemented by expertise in frameworks such as React, Node.js, and Redux. Proficient in backend development, I design secure and scalable APIs, manage databases, and implement authentication systems. On the frontend, I excel at creating responsive, user-friendly interfaces using tools like Tailwind CSS.
+
+My experience extends to data analysis, systems management, and IT infrastructure, ensuring robust, optimized solutions that align with business objectives. A quick learner and an effective collaborator, I work closely with clients and teams to develop innovative, scalable solutions that address real-world challenges.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
