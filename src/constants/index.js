@@ -124,6 +124,10 @@ const technologies = [
     icon: figma,
   },
   {
+    name:"Canva",
+    icon:canva
+  },
+  {
     name: "Word",
     icon: word,
   },
