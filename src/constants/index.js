@@ -12,6 +12,7 @@ import {
   mongodb,
   git,
   figma,
+  canva,
   jobit,
   tripguide,
   word,
