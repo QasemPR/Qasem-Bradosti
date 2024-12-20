@@ -67,7 +67,7 @@ const Contact = () => {
       >
         <h3 className={styles.sectionHeadText}>Contact </h3>
 
-        <h1 style={{ fontSize: 20, fontWeight: "bold" }}>Phone : 07507265615</h1>
+        <h1 style={{ fontSize: 16, fontWeight: "bold" }}><a href="tel:+9647507265615">Phone : 07507265615</a></h1>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
