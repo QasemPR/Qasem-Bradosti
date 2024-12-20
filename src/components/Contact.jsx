@@ -67,11 +67,7 @@ const Contact = () => {
       >
         <h3 className={styles.sectionHeadText}>Contact </h3>
 
-        <h1 style={{ fontSize: 12, fontWeight: "bold" }}>📞- 07507265615</h1>
-        <h1 style={{ fontSize: 12, fontWeight: "bold" }}>
-          📧 - Qasem.najim@gmail.com
-        </h1>
-
+        <h1 style={{ fontSize: 20, fontWeight: "bold" }}>Phone : 07507265615</h1>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -81,6 +77,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
+              required
               name="name"
               value={form.name}
               onChange={handleChange}
@@ -92,6 +89,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your email</span>
             <input
               type="email"
+              required
               name="email"
               value={form.email}
               onChange={handleChange}
@@ -103,6 +101,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}
+              required
               onResize={false}
               name="message"
               value={form.message}

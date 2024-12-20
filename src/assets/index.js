@@ -19,12 +19,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 
-import starbucks from "./company/starbucks.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import cpp from "./tech/cpp.png";
 import csharp from "./tech/csharp.png";
 import sql from "./tech/sql.png";
@@ -35,6 +29,11 @@ import excel from "./tech/excel.png";
 import access from "./tech/access.png";
 import powerpoint from "./tech/powerpoint.png";
 
+import zamin from './company/zamin.webp'
+import Bradost from './company/B.png'
+import Sardam from './company/sardam.png'
+import Tecno from './company/tecno.webp'
+
 import arabic from './arabic.png'
 import kurdish from './kurdish.png'
 import english from './english.png'
@@ -44,11 +43,15 @@ export {
   backend,
   creator,
   mobile,
+  zamin,
   web,
   github,
   menu,
   close,
   css,
+  Bradost ,
+  Tecno,
+  Sardam,
   figma,
   canva,
   git,
@@ -59,10 +62,6 @@ export {
   reactjs,
   redux,
   tailwind,
-  starbucks,
-  carrent,
-  jobit,
-  tripguide,
   cpp,
   csharp,
   sql,

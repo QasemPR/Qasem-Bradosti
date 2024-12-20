@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,18 +9,27 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { zamin } from "../assets";
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
         background: "#d35400",
-        color: "#fff",
+        color: "white",
         borderRadius: 10,
       }}
       contentArrowStyle={{ borderRight: "7px solid " }}
       date={experience.date}
-      iconStyle={{ background: "#d35400" }}
+      icon={
+        <div className='flex justify-center items-center w-full h-full'>
+          <img
+            src={experience.icon}
+            className='w-full h-full object-contain rounded-full'
+          />
+        </div>
+      }
+      iconStyle={{background:"#fff"}}
     >
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>

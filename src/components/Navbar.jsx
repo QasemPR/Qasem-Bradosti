@@ -42,9 +42,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex sm:text-[16px] xs:text-[14px] '>
-            Qasem Najim &nbsp;
+          <p className='text-black bg-slate-50 p-2 rounded-lg text-[18px] font-bold cursor-pointer flex sm:text-[16px] xs:text-[14px] '>
+            Qasem Najm Bazid
           </p>
         </Link>
 

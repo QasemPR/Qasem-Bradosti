@@ -13,8 +13,6 @@ import {
   git,
   figma,
   canva,
-  jobit,
-  tripguide,
   word,
   excel,
   powerpoint,
@@ -26,6 +24,10 @@ import {
   arabic,
   kurdish,
   english,
+  zamin,
+  Tecno ,
+  Bradost ,
+  Sardam
 } from "../assets";
 
 export const navLinks = [
@@ -124,8 +126,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name:"Canva",
-    icon:canva
+    name: "Canva",
+    icon: canva,
   },
   {
     name: "Word",
@@ -162,39 +164,48 @@ const languages = [
 
 const experiences = [
   {
-    title: "Data Analyst, Accounting, IT Manager, and Systems Management",
+    title: " IT Manager ,Accountant",
     company_name: "Zamin Phone Company",
     iconBg: "#0070ff",
+    icon:zamin,
     date: "Dec 2024 - Present",
     points: [
-      "In my current role at Zamin, I oversee a wide range of responsibilities, including data analysis, accounting, IT management, and systems management. My key responsibilities include:",
-      "Data Analysis: Analyzing large datasets to uncover trends, insights, and actionable data to support strategic decision-making across the organization.",
-      "Financial Reporting and Accounting: Managing financial reporting, budgeting, forecasting, and overseeing accounts payable/receivable along with regular reconciliations.",
-      "IT Management: Leading the management of IT infrastructure, ensuring the organization’s systems and networks are secure, reliable, and aligned with business objectives.",
-      "Systems Management: Administering and optimizing company-wide IT systems, including database management, software tools, and internal networks, ensuring smooth, uninterrupted operations.",
-      "IT Support: Providing technical support to employees, troubleshooting and resolving hardware/software issues, and ensuring efficient communication and collaboration tools.",
-      "System Maintenance and Upgrades: Overseeing regular maintenance, updates, and upgrades to IT systems to ensure efficiency, security, and up-to-date technology standards.",
-      "Process Automation: Implementing automation solutions for data analysis, accounting workflows, and IT operations, reducing manual efforts and increasing overall productivity.",
-      "Team Leadership: Leading and mentoring the IT support team, setting priorities, and providing training to ensure the effective use of technology throughout the company.",
-      "This role enables me to leverage my skills in IT management, systems optimization, data analysis, and accounting to drive operational efficiency, security, and growth at Zamin.",
+      "In my role at Zamin as an Accountant and IT Manager, I oversaw a broad spectrum of responsibilities that combined financial management and IT infrastructure oversight. This dual role allowed me to integrate accounting processes with technological solutions to drive efficiency, accuracy, and growth across the organization.",
+      "As an Accountant, I managed the company’s financial operations, including preparing and analyzing financial reports, managing budgets, forecasting expenditures, and ensuring accurate tracking of accounts payable and receivable. I conducted regular reconciliations and audits to maintain the integrity of financial records and ensure compliance with internal policies and regulatory standards. Leveraging data analysis tools, I identified trends and insights that supported strategic decision-making and improved financial planning processes. I implemented automation solutions to streamline financial workflows, reducing manual tasks and increasing the speed and accuracy of reporting.",
+      "In my capacity as an IT Manager, I was responsible for overseeing the organization’s IT infrastructure to ensure security, reliability, and alignment with business goals. This involved managing servers, networks, and databases, as well as administering enterprise software tools and internal systems. I developed and enforced IT policies and procedures to protect company data and ensure compliance with security standards. Regular maintenance, upgrades, and security patches were performed to keep systems up-to-date and secure.",
+      "Additionally, I provided technical support to employees by troubleshooting hardware and software issues, ensuring minimal downtime and maintaining productivity across the company. I implemented and optimized communication and collaboration tools, such as email systems, cloud storage, and project management platforms. I also led the IT support team, assigning tasks, setting priorities, and providing training to enhance their technical skills and improve service delivery.",
+      "A key aspect of my role was process automation. By introducing automated solutions for routine tasks in both accounting and IT operations, I significantly reduced manual workloads and improved overall efficiency. For instance, automating financial reporting processes reduced turnaround times and minimized errors, while automated system monitoring tools enhanced IT infrastructure reliability.",
+      "I played a crucial role in systems management by optimizing company-wide IT systems and ensuring seamless integration between accounting software and other business tools. This ensured smooth, uninterrupted operations and improved data consistency across departments. I also collaborated closely with other departments to understand their technology needs and implemented solutions to support their functions effectively.",
+      "Overall, my combined experience as an Accountant and IT Manager at Zamin allowed me to bridge the gap between financial management and technology, driving operational efficiency, enhancing data security, and supporting the company's growth and strategic objectives.",
     ],
   },
   {
     title: "Full Stack Developer",
     company_name: "Tecno Speed Software Team",
     iconBg: "#0070ff",
+    icon:Tecno ,
     date: "March 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "In my role as a Full Stack Developer on the Tecno Speed Software Team, I specialized in building and maintaining scalable web applications using the MERN stack — MongoDB, Express.js, React.js, and Node.js. This role allowed me to handle the entire development lifecycle, from designing intuitive user interfaces to managing robust back-end services and databases.",
+      "On the front-end, I used React.js along with JavaScript (ES6+) and modern CSS frameworks like Tailwind CSS to create responsive, dynamic, and user-friendly interfaces. My focus was on delivering seamless user experiences by ensuring high performance, accessibility, and cross-browser compatibility.",
+      "On the back-end, I built RESTful APIs with Node.js and Express.js, ensuring efficient routing, data handling, and security. I implemented features such as authentication, authorization, and data encryption to maintain secure and reliable applications.",
+      "For the database layer, I worked with MongoDB, designing flexible and scalable data schemas to meet application requirements. I optimized database queries and ensured data integrity, supporting the needs of both simple and complex applications. Key responsibilities included:",
+      "Full-Stack Development: Designing and implementing complete web applications with React.js on the front-end, and Node.js and Express.js on the back-end.",
+      "API Development: Creating RESTful APIs to enable seamless communication between front-end and back-end services.",
+      "Database Management: Designing MongoDB schemas, writing efficient queries, and optimizing database performance.",
+      "Authentication and Security: Implementing user authentication, JWT-based authorization, and secure data handling practices.",
+      "State Management: Managing application state using Redux Toolkit to create predictable and maintainable data flows.",
+      "Deployment: Deploying applications to cloud platforms like AWS or services like Heroku and setting up CI/CD pipelines for automated deployment and testing.",
+      "Version Control: Using Git and platforms like GitHub for collaborative development and version tracking.",
+      "Performance Optimization: Ensuring applications were optimized for speed, scalability, and efficiency through code optimization, caching strategies, and load balancing techniques.",
+      "This role enabled me to leverage my skills in MERN stack development, building modern web applications that are scalable, secure, and maintainable, while collaborating with cross-functional teams to deliver high-quality software solutions.",
     ],
   },
   {
-    title: "IT Support & Technical Support Specialist",
+    title: "IT Supporter & Technical Supporter",
     company_name: "Bradost PC and Mobile Center",
     iconBg: "#0070ff",
+    icon: Bradost,
     date: "Jan 2018 - Jul 2019",
     points: [
       "Over the past two years, I have gained extensive experience in providing IT support and technical assistance to users, ensuring smooth and efficient operation of their systems and devices. My role involved",
@@ -208,9 +219,10 @@ const experiences = [
     ],
   },
   {
-    title: "IT Support Specialist",
+    title: "IT Supporter",
     company_name: "Sardam Center",
     iconBg: "#0070ff",
+    icon:Sardam ,
     date: "Jul 2019 - march 2021",
     points: [
       "With 2 years of hands-on experience as an IT Support Specialist, I have effectively provided technical assistance and support for various IT-related issues. My key responsibilities included:",
@@ -232,44 +244,5 @@ const experiences = [
   },
 ];
 
-const projects = [
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Food Delivary App",
-    description: "This Appliction is using for food delivary",
-    tags: [
-      {
-        name: "react Native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node js and express js",
-        color: "green-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
 
-export { services, technologies, experiences, projects, languages };
+export { services, technologies, experiences, languages };

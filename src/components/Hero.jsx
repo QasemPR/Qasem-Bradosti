@@ -6,7 +6,7 @@ const Hero = () => {
     <section className={` flex items-center flex-col w-full h-screen mx-auto`}>
       <div>
         <img
-          src={require("../assets/IMG.jpg")}
+          src={require("../assets/Qasem.jpg")}
           alt="!"
           className="w-[200px] h-200px] hover:scale-110 rounded-full border-4 mt-[120px]  border-yellow-500"
         />
@@ -21,10 +21,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi , I'm <span className="text-[#915EFF]">Qasem Najim Bazid</span>
+            Hi , I'm <span className="text-[#915EFF]">Qasem Najm</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I`m Full Stack Developer <br className="sm:block hidden" />
+            Im Full Stack Developer <br className="sm:block hidden" />
           </p>
           <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 50 }}>
             <li>Mobile Application</li>
