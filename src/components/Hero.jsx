@@ -24,12 +24,13 @@ const Hero = () => {
             Hi , I'm <span className="text-[#915EFF]">Qasem Najm</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Im Full Stack Developer <br className="sm:block hidden" />
+            Im IT Manager <br className="sm:block hidden" />
           </p>
           <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 50 }}>
-            <li>Mobile Application</li>
-            <li>Web Application</li>
-            <li>Managment Systems</li>
+            <li>Full Stack Developer</li>
+            <li>Accountant Manager</li>
+            <li>Graphic Designer</li>
+            <li>Social Media Manager</li>
           </ul>
         </div>
       </div>
